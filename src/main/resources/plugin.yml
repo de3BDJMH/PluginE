@@ -1,0 +1,13 @@
+name: PluginE
+version: '${project.version}'
+main: de3BDJMH.PluginE.PluginE
+api-version: '1.20'
+commands:
+  plugine:
+    aliases:
+      - "pe"
+    usage: "/plugine <function>"
+    description: "等价交换主命令"
+  emc:
+    usage: "/emc <item>"
+    description: "获取EMC"
